@@ -32,14 +32,27 @@ export default function Hero() {
                 Introducing CodeFlow AI{" "}
               </span>
             </div>
-            <h1 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight  
+            <h1
+              className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight  
             
-            ">
-              <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent  block mb-1 sm:mb-2 "> Code Faster</span>
-              <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent  block mb-1 sm:mb-2"> Build Better</span>
-              <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent  block mb-1 sm:mb-2">With CodeFlow AI </span>
+            "
+            >
+              <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent  block mb-1 sm:mb-2 ">
+                {" "}
+                Code Faster
+              </span>
+              <span className="bg-gradient-to-b from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent  block mb-1 sm:mb-2">
+                {" "}
+                Build Better
+              </span>
+              <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent  block mb-1 sm:mb-2">
+                With CodeFlow AI{" "}
+              </span>
             </h1>
-
+            <p className="text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200   ">
+              Artificial Intelligence (AI) is a technology that enables machines to learn, analyze data, and make decisions.
+It is widely used in fields like healthcare, transportation, and software development to improve efficiency and solve complex problems.
+            </p>
           </div>
 
           <div className="relative order-2 w-full">

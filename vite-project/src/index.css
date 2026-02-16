@@ -16,6 +16,9 @@
     .delay-100 {
         animation-delay: 1OOms;
     }
+    .delay-200 {
+        animation-delay: 2OOms;
+    }
 }
 @keyframes slideInFromTop {
 
