@@ -61,8 +61,8 @@ It is widely used in fields like healthcare, transportation, and software develo
                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300 "/>
               </button>
               <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/5 backdrop-blur-sm border border-white/10    rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover: flex items-center justify-center space-x-2        ">
-                <div>
-                  <Play/>
+                <div className="p-2 bg-white/10 rounded-full group-hover:bg-white/20 duration-300 transition-colors ">
+                  <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white  "/>
                 </div>
                 <span>
                   Watch Demo
